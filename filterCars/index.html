@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Filer</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="car">
+      <div class="title">
+        <h2>Filter<span>Cars</span></h2>
+      </div>
+
+      <div class="btn-container">
+        <button class="filter-btn" type="button" data-id="all">all</button>
+        <button class="filter-btn" type="button" data-id="audi">AUDI</button>
+        <button class="filter-btn" type="button" data-id="bmw">BMW</button>
+        <button class="filter-btn" type="button" data-id="dacia">DACIA</button>
+      </div>
+
+      <div class="section-center">
+        <!-- start card -->
+        <div class="card">
+          <img src="./images/audi-a1.jpg" alt="menu-item" />
+          <div class="text">
+            <div class="bold">
+              <h1>Audi A1</h1>
+              <h3>1.6 TDI Sport 3dr 2014</h3>
+            </div>
+            <div class="price">
+              <p>From <span>$137</span> monthly or <span>$7250</span></p>
+            </div>
+            <div class="mile">
+              <p>67k miles <span>Desel</span> <span>Manual</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- end card -->
+      </div>
+    </section>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
