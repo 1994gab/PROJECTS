@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #00aaa9;
+}
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 2em;
+  color: #a3cfcd;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  width: 80vw;
+  max-width: 1170px;
+}
+.review {
+  background: #4b4a54;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(34, 25, 25, 0.9);
+  transition: all 0.3s linear;
+  text-align: center;
+}
+
+.review:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.img-container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+#person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+}
+
+#author {
+  margin-bottom: 0.25rem;
+  color: #a3cfcd;
+  font-size: 40px;
+}
+#job {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: #677381;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+#info {
+  margin-top: 2rem;
+  color: #a3cfcd;
+  font-family: "Courier New", Courier, monospace;
+}
+.prev-btn,
+.next-btn {
+  color: white;
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: #677381;
+}
