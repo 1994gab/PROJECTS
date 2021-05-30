@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+body {
+  background-color: #fcfcfc;
+}
+
+.section {
+  padding: 10rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.title {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-size: 20px;
+}
+.title h2 {
+  font-family: "Roboto", sans-serif;
+
+  text-transform: uppercase;
+  color: #43655a;
+  text-align: center;
+}
+.section-center {
+  max-width: 625px;
+}
+.question {
+  background: #43655a;
+  border-radius: 15px;
+
+  box-shadow: 0 20px 40px rgba(34, 25, 25, 0.3);
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  margin-bottom: 2rem;
+}
+.question-title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.question-title p {
+  margin-bottom: 1.5em;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #d8dbe0;
+  text-transform: uppercase;
+}
+.question-btn {
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: #c3fcf2;
+  transition: all 0.3s linear;
+}
+.question-btn:hover {
+  transform: rotate(-90deg);
+}
+.question-text {
+  padding: 1rem 0 1.5rem 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  color: #c3fcf2;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+.question-text p {
+  margin-bottom: 0;
+}
+
+.question-text {
+  display: none;
+}
+.show-text .question-text {
+  display: block;
+}
