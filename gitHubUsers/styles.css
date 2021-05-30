@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+
+.section-title {
+  text-align: center;
+  margin: 4rem 0 6rem 0;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+.card {
+  margin: 30px;
+  width: 500px;
+  height: 500px;
+}
+
+.card {
+  background: #677381;
+  border-radius: 10%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+  padding: 2rem 3.5rem;
+  text-align: center;
+}
+.card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.card h4 {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #a3cfcd;
+}
+
+.btn {
+  padding: 0.35rem 0.75rem;
+  letter-spacing: 1.6px;
+  font-size: 1rem;
+  color: #f5dede;
+  background: #00c9c8;
+  border-radius: 10px;
+  border-color: transparent;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.page-btn {
+  width: 2rem;
+  height: 2rem;
+  background: white;
+  color: black;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: var(--transition);
+}
+.active-btn {
+  background: black;
+  color: white;
+}
+.prev-btn,
+.next-btn {
+  background: transparent;
+  border-color: transparent;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  margin: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
